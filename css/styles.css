@@ -1945,6 +1945,7 @@ input[type=url],
 input[type=password],
 textarea,
 select {
+    color              : white;
     --input-height     : var(--vspace-2);
     --input-line-height: var(--vspace-1);
     --input-vpadding   : calc((var(--input-height) - var(--input-line-height)) / 2);
@@ -1953,7 +1954,6 @@ select {
     padding            : var(--input-vpadding) 0 calc(var(--input-vpadding) - 1px);
     border             : 0;
     outline            : 0;
-    color              : var(--color-text-light);
     font-family        : var(--font-1);
     font-size          : calc(var(--text-size) * 0.8);
     line-height        : var(--input-line-height);
@@ -2010,7 +2010,7 @@ textarea {
     min-height: calc(8 * var(--space));
 }
 
-input[type=email]:focus,
+/* input[type=email]:focus,
 input[type=number]:focus,
 input[type=search]:focus,
 input[type=text]:focus,
@@ -2021,7 +2021,7 @@ textarea:focus,
 select:focus {
     color        : var(--color-text);
     border-bottom: 1px solid var(--color-1);
-}
+} */
 
 label,
 legend {
@@ -3960,7 +3960,7 @@ td:last-child {
  * ------------------------------------------------------------------- */
 .folio-entries .entry {
     flex    : none;
-    width   : 50%;
+    width   : auto;
     margin  : 0;
     padding : 0;
     overflow: hidden;
@@ -3981,14 +3981,14 @@ td:last-child {
 .folio-entries .entry__link::before {
     z-index         : 1;
     content         : "";
-    display         : block;
+    display         :block;
     background-color: rgba(0, 0, 0, 0.5);
-    width           : 100%;
+    width           :100%;
     height          : 100%;
     transition      : all, 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
     opacity         : 1;
     visibility      : hidden;
-    position        : absolute;
+    position        :absolute;
     top             : 0;
     left            : 0;
 }
@@ -4463,4 +4463,61 @@ td:last-child {
 #sectionLogo *{
     justify-content: center;
     align-items: center;
+}
+
+/* chat gpt  */
+
+.formsection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: #181818; */
+  }
+  form {
+    width: 100%;
+    padding: 0 10%
+  }
+  
+  .formcontent {
+    flex: 0 0 50%;
+    padding: 10px;
+  }
+  
+  .formcontent input,
+  .formcontent textarea {
+    width: 100%;
+  }
+  
+  .formcontent ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .formcontent li {
+    margin-top: 10px;
+    list-style: none;
+  }
+  
+  /* .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  } 
+   */
+
+   .entry__thumb img {
+    max-width: 350px; /* Adjust this value as needed */
+    height: auto;
 }
