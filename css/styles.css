@@ -498,6 +498,7 @@ table {
     flex-flow: row wrap;
     width    : min(92%, var(--width-grid-max));
     margin   : 0 auto;
+    justify-content: center;
 }
 
 .row .row {
@@ -2723,12 +2724,14 @@ td:last-child {
     align-items  : flex-start;
     margin-bottom: var(--vspace-3_5);
     position     : relative;
+    justify-content: center;
 }
 
 .section-header .text-display-title {
     padding-top  : 0.5em;
     margin-bottom: 0;
     position     : relative;
+
 }
 
 .section-header::before {
@@ -3404,7 +3407,7 @@ td:last-child {
 .s-intro__content-pretitle {
     font-weight  : 600;
     margin-bottom: var(--vspace-0_125);
-    color        : var(--color-1);
+    color        : black;
 }
 
 .s-intro__content-title {
