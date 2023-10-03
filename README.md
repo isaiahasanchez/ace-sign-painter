@@ -1,27 +1,33 @@
-# Ace Sign Painter LA Local Business Web App
+# Ace Sign Painter Web App
 
-Welcome to the GitHub repository of **Ace Sign Painter** - Your premier sign painting business in LA.
+As a freelance software engineer, I developed this web application for a sign painting client. I've showcased the coding aspects here to highlight my skills and the tools I've utilized.
+
+## Explore the Project
+
+Experience the web app here: [Ace Sign Painter](https://acesignpainter.netlify.app/).
+
+<img width="1403" alt="Ace sign painter screenshot" src="https://github.com/isaiahasanchez/ace-sign-painter/assets/124002003/ed4f1c2a-f9e9-4ed3-a153-a29d0aef7e26">
 
 
-## Overview
+## Features
 
-**Ace Sign Painter** web app serves as a dynamic digital storefront for a sign painting business located in the heart of Los Angeles. This websites aim is to provide an easy and intuitive platform for  customers to explore services, view his portfolio, and get in touch with him.
+1. **Catalog of Services**: Dive into a diverse range of sign painting services curated to cater to varied business requirements.
+2. **Portfolio**: A captivating display of past projects, emphasizing both quality and artistic creativity.
+3. **Social Links**: Seamless integration of social media channels, ensuring a smooth user experience.
+4. **Contact Form**: An intuitive contact form designed for inquiries, quotes, and feedback, streamlining user engagement.
 
-### Features
+## Technical Highlights
 
-1. **Catalog of Services** - Browse through our diverse range of sign painting services tailored to meet various business needs.
-2. **Portfolio** - A visually appealing section showcasing our previous works that reflects our commitment to quality and creativity.
-3. **Social Links** - Stay connected with us through our social channels. We love engaging with our community!
-4. **Contact Form** - A simple and concise form to get in touch with us. Whether it's for inquiries, quotes, or feedback, we're all ears.
+- Crafted using **JavaScript**, **HTML**, and **CSS**.
+- Dynamic animations enhancing user interaction.
+- Unique and accessible social media links.
+- Clean and structured presentation of the portfolio.
+- User-friendly contact form for effortless communication.
 
-## Getting Started
 
-Visit [Ace Sign Painter](https://acesignpainter.netlify.app/) to explore our services and works.
+## Feedback & Contributions
 
-## Feedback
-
-We're always looking to improve. If you have any feedback or suggestions, don't hesitate to reach out via our contact form on the web app.
-
+Your insights are valuable! If you have feedback or technical suggestions, feel free to reach out or submit a pull request.
 
 ## License
 
